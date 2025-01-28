@@ -1,0 +1,10 @@
+body {
+    font-family: Roboto;
+    min-height: 100hv;
+    display: flex;
+    flex-direction: column;
+}
+
+.header-logo {
+    font-size: 48px;
+}
