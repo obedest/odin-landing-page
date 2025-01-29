@@ -21,7 +21,7 @@ body {
 .header-logo {
     font-size: 24px;
     color: #F9FAF8;
-    max-width: 700px;
+    max-width: 600px;
     text-align: start;
     flex-grow: 1;
 }
@@ -45,7 +45,7 @@ body {
 .header-links {
     font-size: 18px;
     color: #E5E7EB;
-    max-width: 700px;
+    max-width: 600px;
     flex-grow: 1;
 }
 
@@ -92,5 +92,49 @@ body {
 .upper-main .left-part {
     display: flex;
     flex-grow: 1;
-    max-width: 700px;
+    max-width: 600px;
+}
+
+.upper-middle-main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 24px;
+    padding-bottom: 124px;
+}
+
+.upper-middle-main h2 {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937
+}
+
+.upper-middle-main .illustration-images {
+    display: flex;
+    gap: 48px;
+    justify-content: center;
+    align-items: center;
+}
+
+.upper-middle-main .illustration-images .image-and-text {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    align-items: center;
+}
+
+.upper-middle-main .illustration-images .image-and-text .image {
+    width: 170px;
+    height: 170px;
+    border: solid #3882F6;
+    border-radius: 20px;
+}
+
+.upper-middle-main .illustration-images .image-and-text .text {
+    font-size: 18px;
+    color: #535a5e;
+    display: flex;
+    max-width: 170px;
+    text-align: center;
 }
