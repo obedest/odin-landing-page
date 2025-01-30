@@ -168,3 +168,38 @@ body {
     color: #1F2937;
     align-self: flex-end;
 }
+
+.lower-main {
+    display: flex;
+    margin: 124px auto;
+    padding: 48px;
+    background-color: #3882F6;
+    border-radius: 10px;
+    gap: 124px;
+    justify-content: center;
+    align-items: center;
+    max-width: 1264px;
+}
+
+.lower-main .left-part .heading {
+    font-size: 24px;
+    color: #F9FAF8;
+    font-weight: bold;
+}
+
+.lower-main .left-part .text {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.lower-main .right-part button {
+    font-size: 18px;
+    background-color: #3882F6;
+    color: #F9FAF8;
+    font-weight: bold;
+    border-color: #F9FAF8;
+    border-width: 3px;
+    border-style: solid;
+    border-radius: 8px;
+    padding: 8px 28px;
+}
