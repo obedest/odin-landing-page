@@ -138,3 +138,33 @@ body {
     max-width: 170px;
     text-align: center;
 }
+
+.lower-middle-main {
+    display: flex;
+    background: #E5E7EB;
+    padding: 124px;
+    justify-content: center;
+    align-items: center;
+}
+
+.lower-middle-main-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 8px;
+    max-width: 850px;
+}
+
+.lower-middle-main .quote {
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+    color: #1F2937;
+}
+
+.lower-middle-main .author {
+    font-size: 24px;
+    font-weight: bold;
+    color: #1F2937;
+    align-self: flex-end;
+}
