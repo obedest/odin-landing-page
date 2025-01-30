@@ -203,3 +203,13 @@ body {
     border-radius: 8px;
     padding: 8px 28px;
 }
+
+.footer {
+    background: #1f2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 36px;
+    font-size: 18px;
+    color: #E5E7EB;
+}
