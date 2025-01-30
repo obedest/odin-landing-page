@@ -21,7 +21,7 @@ body {
 .header-logo {
     font-size: 24px;
     color: #F9FAF8;
-    max-width: 600px;
+    max-width: 590px;
     text-align: start;
     flex-grow: 1;
 }
@@ -45,7 +45,7 @@ body {
 .header-links {
     font-size: 18px;
     color: #E5E7EB;
-    max-width: 600px;
+    max-width: 590px;
     flex-grow: 1;
 }
 
